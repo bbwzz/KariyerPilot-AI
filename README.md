@@ -50,7 +50,7 @@ GEMINI_API_KEY=AIzaSyYourActualKeyHere
 Bash
 streamlit run app.py
 The application will automatically open in your default browser at http://localhost:8501.
-
+```text
 📂 Project Structure
 Plaintext
 KariyerPilot-AI/
@@ -60,4 +60,5 @@ KariyerPilot-AI/
 ├── ai_agent.py         # Google GenAI connection layer and Pydantic schemas
 ├── app.py              # Main Streamlit application and UI layout
 └── backend.py          # Math, data schemas, and analytics engine
+```
 Built with Python, Streamlit, and Google Gemini.
