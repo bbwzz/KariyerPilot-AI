@@ -1,0 +1,10 @@
+# Ignore the secret environment variables file (CRITICAL)
+.env
+
+# Ignore the synthetic mock data generated locally by your backend
+synthetic_data.csv
+
+# Ignore local Python environment caches
+__pycache__/
+*.pyc
+.pytest_cache/
