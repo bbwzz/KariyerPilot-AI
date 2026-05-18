@@ -30,12 +30,12 @@ This project utilizes a **Composite AI** design pattern, cleanly separating dete
 
 git clone [https://github.com/your-username/KariyerPilot-AI.git](https://github.com/your-username/KariyerPilot-AI.git)
 cd KariyerPilot-AI
-2. Install Dependencies
+### 2. Install Dependencies
 Ensure you have Python 3.9+ installed, then run:
 
 Bash
 pip install streamlit scikit-learn pandas google-genai pydantic python-dotenv
-3. Environment Configuration
+### 3. Environment Configuration
 You need an active Google Gemini API Key to power the generative agent layer.
 
 Get a free API key from Google AI Studio.
@@ -46,7 +46,7 @@ Add your key to the file (no spaces, no quotes):
 
 Plaintext
 GEMINI_API_KEY=AIzaSyYourActualKeyHere
-4. Launch the Application
+### 4. Launch the Application
 Bash
 streamlit run app.py
 The application will automatically open in your default browser at http://localhost:8501.
