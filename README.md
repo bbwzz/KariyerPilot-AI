@@ -44,7 +44,6 @@ Create a file named exactly .env in the root directory.
 
 Add your key to the file (no spaces, no quotes):
 
-Plaintext
 GEMINI_API_KEY=AIzaSyYourActualKeyHere
 ### 4. Launch the Application
 Bash
